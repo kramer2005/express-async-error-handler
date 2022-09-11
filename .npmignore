@@ -1,5 +1,6 @@
 node_modules
-test
 src
 tsconfig.json
-ava.config.js
+package-lock.json
+src/server.ts
+*.test.ts

@@ -4,7 +4,7 @@
     "lib": ["es6"],
     "experimentalDecorators": true,                   /* Enable experimental support for TC39 stage 2 draft decorators. */
     "module": "commonjs",                                /* Specify what module code is generated. */
-    "rootDir": "src",                                      /* Specify the root folder within your source files. */
+    "rootDirs": ["src", "test"],                                      /* Specify the root folder within your source files. */
     "resolveJsonModule": true,                           /* Enable importing .json files. */
     "allowJs": true,                                     /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
     "outDir": "build",                                   /* Specify an output folder for all emitted files. */
