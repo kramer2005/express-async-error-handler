@@ -1,6 +1,6 @@
 {
   "name": "@kramerdev/express-async-error-handler",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A custom express async error handler",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,7 +11,7 @@
   "homepage": "https://github.com/kramer2005/express-async-error-handler#readme",
   "scripts": {
     "test": "npm run dist && jest",
-    "dist": "tsc"
+    "build": "tsc"
   },
   "keywords": [
     "express",
