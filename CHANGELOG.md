@@ -1,6 +1,7 @@
 ## **1.1.0**
 
 - [fix] package config
+- [docs] add readme
 
 ## **1.0.0**
 
