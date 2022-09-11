@@ -4,3 +4,5 @@ tsconfig.json
 package-lock.json
 src/server.ts
 *.test.ts
+.vscode
+.github
