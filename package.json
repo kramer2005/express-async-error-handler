@@ -10,7 +10,7 @@
   },
   "homepage": "https://github.com/kramer2005/express-async-error-handler#readme",
   "scripts": {
-    "test": "npm run dist && jest",
+    "test": "npm run build && jest",
     "build": "tsc"
   },
   "keywords": [
