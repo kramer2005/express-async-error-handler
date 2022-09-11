@@ -1,5 +1,5 @@
 import express from 'express'
-import { AsyncErrorHandlerDecorator, AsyncErrorHandlerMiddleware, AsyncErrorHandlerWrapper } from '.'
+import { AsyncErrorHandler, AsyncErrorHandlerMiddleware } from '.'
 
 export const app = express()
 
@@ -13,13 +13,13 @@ const unresolvedPromise = async () => {
   throw new Error("ERROR")
 }
 
-app.get("/wrapper", AsyncErrorHandlerWrapper(async (req, res) => {
+app.get("/wrapper", AsyncErrorHandler(async (req, res) => {
   await unresolvedPromise()
 }))
 
 class Controller {
 
-  @AsyncErrorHandlerDecorator()
+  @AsyncErrorHandler()
   async home() {
     await unresolvedPromise()
   }

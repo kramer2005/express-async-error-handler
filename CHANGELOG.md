@@ -1,3 +1,7 @@
+## **1.2.0**
+
+- [feat] overload handlers
+
 ## **1.1.0**
 
 - [fix] package config

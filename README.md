@@ -38,10 +38,10 @@ Then you need to setup the middleware, as follows:
 
 ### Wrapper
 
-If you're not using classes for your routes, you can use a wrapper function, example:
+If you're not using classes for your routes, you can use as a wrapper function, example:
 
 ```js
-  app.get("/", AsyncErrorHandlerWrapper(
+  app.get("/", AsyncErrorHandler(
     async (req, res) => {
       res.send("OK")
     }
@@ -50,12 +50,12 @@ If you're not using classes for your routes, you can use a wrapper function, exa
 
 ### Decorator
 
-If you're using classes for your routes, you can use a decorator, example:
+If you're using classes for your routes, you can use as a decorator, example:
 
 ```js
 class Controller {
   
-  @AsyncErrorHandlerDecorator()
+  @AsyncErrorHandler()
   async home(req, res) {
     res.send("OK")
   }
