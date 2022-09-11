@@ -1,6 +1,8 @@
 # Express Async Error Handler
 
 [![Node.js CI](https://github.com/kramer2005/express-async-error-handler/actions/workflows/test.yaml/badge.svg)](https://github.com/kramer2005/express-async-error-handler/actions/workflows/test.yaml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/kramer2005/express-async-error-handler/blob/master/LICENSE)
+[![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/@kramerdev/express-async-error-handler)
 
 ## Table of Contents  
 [About](#about)  
@@ -8,6 +10,12 @@
 - [Middleware](#middleware)
 - [Wrapper](#wrapper)
 - [Decorator](#decorator)
+
+## Installation
+
+```bash
+npm i @kramerdev/express-async-error-handler
+```
 
 ## About
 This package implements a async error handler.
