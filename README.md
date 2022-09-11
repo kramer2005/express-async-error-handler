@@ -3,8 +3,11 @@
 [![Node.js CI](https://github.com/kramer2005/express-async-error-handler/actions/workflows/test.yaml/badge.svg)](https://github.com/kramer2005/express-async-error-handler/actions/workflows/test.yaml)
 
 ## Table of Contents  
-[Headers](#headers)  
-[Emphasis](#emphasis)
+[About](#about)  
+[Setup](#setup)
+- [Middleware](#middleware)
+- [Wrapper](#wrapper)
+- [Decorator](#decorator)
 
 ## About
 This package implements a async error handler.
